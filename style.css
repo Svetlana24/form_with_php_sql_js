@@ -1,0 +1,94 @@
+@font-face {
+    font-family: "PN-R";
+    src: url("fonts/proxima/ProximaNova-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+    font-family: "PN-R";
+}
+body {
+	margin: 0 auto;
+    max-width: 1440px;
+    position: relative;
+    overflow-x: hidden;
+    line-height: 18px;
+	background-color: rgba(0,0,0,0.6);
+	font-family: "PN-R";
+}
+input {
+	margin: 10px 0 20px;
+	padding-left: 20px;
+    font-size: 16px;
+	width: 100%;
+	height: 40px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	box-sizing: border-box;
+	border: 1px solid #c8cdd5;
+}
+
+a {
+	color: #525358;
+	text-decoration: none;
+}
+a:hover {
+	color: #1f3cd0;
+	font-weight: 900;
+}
+
+.text_info {
+    margin-bottom: 12px;
+    font-size: 16px;
+    color: #c1c1c1;
+}
+.sign_in,.sign_up {
+	margin: 50px auto 0;
+	/*position: absolute;
+	top: 70px;
+	left: 25%;*/
+	padding: 20px;
+	width: 50%;
+	background-color: #fff;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+/*.sign_in {
+	z-index: 100;
+}
+.sign_up {
+	opacity: 0;
+	z-index: 99;
+}
+.sign_up:target {
+	opacity: 1;
+	z-index: 100;
+}*/
+
+.keep_login {
+	width: 15px;
+	height: 15px;
+}
+.submit {
+	color: #fff;
+    background-color: #87b448;
+    cursor: pointer;
+ }
+ .to_sign_in,.form_links{
+	display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: flex;
+ }
+ .form_links {
+    -webkit-justify-content: space-between;
+    -moz-justify-content: space-between;
+    justify-content: space-between;
+ }
+ .to_sign_in {
+    -webkit-justify-content: flex-end;
+    -moz-justify-content: flex-end;
+    justify-content: flex-end;
+ }
+
+ 
